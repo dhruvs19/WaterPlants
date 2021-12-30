@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\My Files\\Work\\shipvista\\webapi\\webapi\\webapi.csproj": {}
+    "D:\\My Files\\Work\\shipvista\\WaterPlants\\webapi\\webapi\\webapi.csproj": {}
   },
   "projects": {
-    "D:\\My Files\\Work\\shipvista\\webapi\\webapi\\webapi.csproj": {
+    "D:\\My Files\\Work\\shipvista\\WaterPlants\\webapi\\webapi\\webapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My Files\\Work\\shipvista\\webapi\\webapi\\webapi.csproj",
+        "projectUniqueName": "D:\\My Files\\Work\\shipvista\\WaterPlants\\webapi\\webapi\\webapi.csproj",
         "projectName": "webapi",
-        "projectPath": "D:\\My Files\\Work\\shipvista\\webapi\\webapi\\webapi.csproj",
+        "projectPath": "D:\\My Files\\Work\\shipvista\\WaterPlants\\webapi\\webapi\\webapi.csproj",
         "packagesPath": "C:\\Users\\Dhruv\\.nuget\\packages\\",
-        "outputPath": "D:\\My Files\\Work\\shipvista\\webapi\\webapi\\obj\\",
+        "outputPath": "D:\\My Files\\Work\\shipvista\\WaterPlants\\webapi\\webapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dhruv\\AppData\\Roaming\\NuGet\\NuGet.Config",
