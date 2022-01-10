@@ -1,11 +1,10 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import { connect } from 'react-redux'
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 import Dialog from '@material-ui/core/Dialog';
 import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
-import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import { Grid } from '@material-ui/core'
 import * as actions from "../actions/plantsActions"
@@ -35,12 +34,19 @@ const PlantForm = (props) => {
             [name]:value
         })
     }
+    const resetForm = () => {
+      setValues({
+             name:"",
+            type:""
+         })
+      setdialogOpen(false)
+    }
 
     const submitPlantForm = e =>{
         e.preventDefault();
-        console.log("Form Submitting");
+        console.log("Adding Plant");
         console.log(values);
-        props.AddPlant(values,()=>{setdialogOpen(false); alert("Plant Added..!!");})
+        props.AddPlant(values, resetForm());
     }
     return (
       <div style={{marginTop:"20px", float:"right"}}>
